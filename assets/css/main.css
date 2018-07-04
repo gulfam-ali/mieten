@@ -1,0 +1,203 @@
+body {
+    font-family: 'Roboto', 'Muli','Lato', sans-serif;
+    background: #000;
+    background-image: url(../background-image1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #fff;
+    font-family: Nunito, Arial, Calibri, Helvetica, sans-serif;
+}
+
+a:focus, a:hover {
+    text-decoration: none !important;
+}
+
+h1, h2, h3, h4, h5, h6{
+    color: #ffeb7d;
+}
+
+h1{
+    font-size: 2rem;
+}
+
+h2{
+    font-size: 1.8rem;
+}
+
+h3{
+    font-size: 1.6rem;
+}
+
+.btn-gold{
+    background: #ffeb7d;
+    color: #000;
+}
+
+.btn-gold:hover {
+    color: #000;
+    background: #ffe243;
+}
+
+.page-heading-wrapper{
+    padding: 0.5em 1em;
+}
+
+.page-heading{
+    border-bottom: 1pt solid rgba(255, 255, 255, 0.18);
+    padding: 0;
+    margin-bottom: 1em;
+}
+
+.article-wrapper{
+    margin: 1.5em 0.8em 0 0.8em;
+    margin-top: 4.2em;
+}
+
+.footer{
+    background: rgba(0, 0, 0, 0.6);
+    text-align: center;
+    padding: 1em;
+    font-size: 0.9rem;
+}
+
+.parallax-window{
+    height: 310px
+}
+
+.sidebar-menu{
+    background: rgba(255, 255, 255, 0.08);
+    border-radius: 0.2em;
+}
+
+.sidebar-menu a.nav-link{
+    border-bottom: 1pt solid #000000;
+    color: #aaa;
+}
+
+.sidebar-menu a.nav-link:hover{
+    color: #ffe243;
+}
+
+.sidebar-menu a.nav-link.active {
+    color: #000;
+    background: #ffcd47;
+    font-weight: 600;
+}
+
+.sidebar-menu a.nav-link:last-child{
+    border-bottom: 0;
+}
+
+.overflow-height-scroll{
+    height: 76vh;
+    overflow-y: scroll;
+}
+
+.parallax {
+    /* Set a specific height */
+    min-height: 310px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed !important;
+    background-position: center center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+}
+
+.category-wrapper{
+    text-align: justify;
+    padding: 2em 1em;
+    max-width: 650px;
+    margin: auto;
+}
+
+.category-container{
+    background: rgba(255, 255, 255, 0.08);
+    padding: 0.5em;
+    border-radius: 0.2em;
+}
+
+.category-heading{
+    padding: 0.5em 0.5em;
+    font-size: 1.4rem;
+    color: #ffeb7d;
+}
+
+.book-now-wrapper{
+    text-align: center;
+    border: 1pt solid #ffeb7d;
+    border-radius: 0.2em;
+    display: flex;
+    padding: 0;
+}
+
+.book-now-wrapper .book-btn{
+    display: flex;
+    cursor: pointer;
+}
+
+.book-now-wrapper .book-btn div{
+    margin: auto;
+}
+
+.car-details-wrapper{
+    margin: 1em 0;
+}
+
+
+.carousel-window{
+    padding: 2em 3em;
+    background: rgba(255, 255, 255, 0.06);
+}
+
+.slick-slide img{
+    max-height: 220px;
+}
+
+img.wedding-pictures {
+    width: 100%;
+    max-width: 420px;
+    border: 6pt solid #fff5b6;
+    border-radius: 0.2em;
+    margin: 0.5em 0.5em 0.5em 0;
+}
+
+@media only screen and (max-width: 840px) {
+    .carousel-window{
+        padding: 1em;
+    }
+}
+
+@media only screen and (max-width: 520px) {
+    .carousel-window{
+        padding: 0.5em 0em;
+    }
+    .slick-slide img{
+        height: 160px;
+    }
+}
+
+/* Scroll Bar Styles */
+
+.scrollbar::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	border-radius: 12px;
+    background-color: transparent;
+}
+
+.scrollbar::-webkit-scrollbar
+{
+	width: 4px;
+	background-color: transparent;
+}
+
+.scrollbar::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+	background-color: #ffeb65;
+}
+
+
